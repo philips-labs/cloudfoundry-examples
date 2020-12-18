@@ -8,4 +8,4 @@ This repository contains a collection of applications written in various program
 
 # Types of deployment
 * [Manifest based deployment](manifests/README.md) (basic)
-* [Deploy using Terraform](terraform/README.md) (advanced)
+* [Deploy using Terraform](terraform) (advanced)
