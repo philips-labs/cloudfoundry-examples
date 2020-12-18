@@ -1,4 +1,4 @@
-# HSDP Cloud foundry example apps
+# Cloud foundry example apps
 This repository contains a collection of applications written in various programming languages. We demonstrate how you can deploy these apps using buildpacks.
 
 ## Available apps
