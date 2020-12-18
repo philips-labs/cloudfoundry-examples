@@ -29,7 +29,7 @@ $ terraform init
 ```
 
 ## Plan
-Next up is to generate plan. This will tell you exactly what Terraform plans to do:
+Next up is to generate a plan. This will tell you exactly what Terraform plans to do:
 
 ```shell
 $ terraform plan
