@@ -5,7 +5,7 @@ Terraform is an Open Source software that is developed by HashiCorp that enables
 * [Install Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 * Configure Cloud foundry variables. Create a `terraform.tfvars` file with the following
 
-``hcl
+```hcl
 cf_org      = "your-cf-org-name"
 cf_space    = "your-cf-space-name"
 cf_username = "yourCFusername"
