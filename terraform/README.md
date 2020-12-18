@@ -46,7 +46,7 @@ After a minute or so you should see the URLs on which the example apps are liste
 
 ## Destroy
 
-Finally, when you are done testing you can remove all apps from the cloud:
+Finally, when you are done testing you can remove the apps and routes you created in the `apply` step:
 
 ```shell
 $ terraform destroy
