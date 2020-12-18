@@ -13,13 +13,15 @@ $ cd terraform
 * Configure Cloud foundry variables. Create a `terraform.tfvars` file using your favorite text editor with the following lines:
 
 ```hcl
-cf_org      = "your-cf-org-name"
-cf_space    = "your-cf-space-name"
-cf_username = "yourCFusername"
-cf_password = "yourCFpassw0rd"
+cf_org          = "your-cf-org-name"
+cf_space        = "your-cf-space-name"
+cf_username     = "yourCFusername"
+cf_password     = "yourCFpassw0rd"
+cf_api_endpoint = "https://api.cloud.pcftest.com"
+cf_domain       = "cloud.pcftest.com"
 ```
 
-* In case you are not deploying to region `us-east` but for example to `eu-west`, add the following entries as well:
+* In case you are not deploying to region `us-east` but for example to `eu-west`, use these values instead:
 
 ```hcl
 cf_api_endpoint = "https://api.eu1.phsdp.com"
