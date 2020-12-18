@@ -7,12 +7,13 @@ This repository contains a collection of applications written in various program
 * [ASP DotNetCore](apps/aspnetcore)
 
 ## Getting started
-Start by clone this repository to your local machine:
+Start by cloning this repository to your local machine:
 
 ```shell
 $ git clone https://github.com/philips-labs/cloudfoundry-examples
 $ cd cloudfoundry-examples
 ```
+You now have all source code and scripts locally. Next is to choose your type of deployment:
 
 # Types of deployment
 * [Manifest based deployment](manifests) (basic)
