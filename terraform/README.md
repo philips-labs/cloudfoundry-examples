@@ -21,6 +21,8 @@ cf_api_endpoint = "https://api.cloud.pcftest.com"
 cf_domain       = "cloud.pcftest.com"
 ```
 
+> These variables are required as  Terraform does not use the CLoudfoundry CLI, but rather talks directly to the Cloudfdoundry API through the provider.
+
 * In case you are not deploying to region `us-east` but for example to `eu-west`, use these values instead:
 
 ```hcl
