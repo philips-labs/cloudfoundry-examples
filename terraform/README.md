@@ -12,10 +12,11 @@ cf_username = "yourCFusername"
 cf_password = "yourCFpassw0rd"
 ```
 
-* In case you are not deploying to `us-east` but for example to `eu-west`, add the following entry as well:
+* In case you are not deploying to region `us-east` but for example to `eu-west`, add the following entries as well:
 
 ```hcl
 cf_api_endpoint = "https://api.eu1.phsdp.com"
+cf_domain       = "eu-west.philips-healthsuite.com"
 ```
 
 # Deploying
@@ -35,8 +36,18 @@ $ terraform plan
 ```
 
 ## Apply
-If the plan looks good, you can now apply it. This will actually deploy your apps to the cloud:
+If the plan looks good, you can now apply it. This will deploy your apps to the cloud:
 
 ```shell
 $ terraform apply
+```
+
+After a minute or so you should see the URLs on which the example apps are listening on
+
+## Destroy
+
+Finally, when you are done testing you can remove all apps from the cloud:
+
+```shell
+$ terraform destroy
 ```
