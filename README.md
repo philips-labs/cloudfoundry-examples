@@ -6,7 +6,7 @@ This repository contains a collection of applications written in various program
 * [NodeJS](apps/nodejs)
 * [ASP DotNetCore](apps/aspnetcore)
 
-## Getting started
+# Getting started
 Start by cloning this repository to your local machine:
 
 ```shell
