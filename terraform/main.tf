@@ -29,5 +29,4 @@ module "aspnetcore" {
   space_id  = data.cloudfoundry_space.space.id
   domain_id = data.cloudfoundry_domain.domain.id
   host_postfix = random_id.host.hex
-  memory = 512
 }
