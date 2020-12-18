@@ -10,7 +10,7 @@ Terraform is an Open Source software that is developed by HashiCorp that enables
 $ cd terraform
 ```
 
-* Configure Cloud foundry variables. Create a `terraform.tfvars` file with the following lines:
+* Configure Cloud foundry variables. Create a `terraform.tfvars` file using your favorite text editor with the following lines:
 
 ```hcl
 cf_org      = "your-cf-org-name"
