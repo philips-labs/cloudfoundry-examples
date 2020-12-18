@@ -1,0 +1,19 @@
+---
+applications:
+- name: aspnetcore
+  path: ../apps/aspnetcore/
+  random-route: true
+  memory: 512M
+  env:
+    DOTNET_CLI_TELEMETRY_OPTOUT: 1
+    DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
+
+- name: nodejs
+  path: ../apps/nodejs/
+  random-route: true
+  memory: 128M
+
+- name: golang
+  path: ../apps/golang/
+  random-route: true
+  memory: 32M
