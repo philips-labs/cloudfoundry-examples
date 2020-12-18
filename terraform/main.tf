@@ -1,20 +1,33 @@
-resource "cloudfoundry_app" "golang" {
+resource "random_id" "host" {
+  byte_length = 8
+}
+
+module "golang" {
+  source = "./modules/buildpack_app"
   name   = "golang"
-  path   = data.archive_file.golang.output_path
-  space  = data.cloudfoundry_space.space.id
+  path   = "../apps/golang"
+  space_id  = data.cloudfoundry_space.space.id
+  domain_id = data.cloudfoundry_domain.domain.id
+  host_postfix = random_id.host.hex
   memory = 32
 }
 
-resource "cloudfoundry_app" "nodejs" {
+module "nodejs" {
+  source = "./modules/buildpack_app"
   name   = "nodejs"
-  path   = data.archive_file.nodejs.output_path
-  space  = data.cloudfoundry_space.space.id
+  path   = "../apps/nodejs"
+  space_id  = data.cloudfoundry_space.space.id
+  domain_id = data.cloudfoundry_domain.domain.id
+  host_postfix = random_id.host.hex
   memory = 128
 }
 
-resource "cloudfoundry_app" "aspnetcore" {
+module "aspnetcore" {
+  source = "./modules/buildpack_app"
   name   = "aspnetcore"
-  path   = data.archive_file.aspnetcore.output_path
-  space  = data.cloudfoundry_space.space.id
+  path   = "../apps/aspnetcore"
+  space_id  = data.cloudfoundry_space.space.id
+  domain_id = data.cloudfoundry_domain.domain.id
+  host_postfix = random_id.host.hex
   memory = 512
 }
