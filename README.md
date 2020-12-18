@@ -7,5 +7,5 @@ This repository contains a collection of applications written in various program
 * [ASP DotNetCore](apps/aspnetcore)
 
 # Types of deployment
-* [Manifest based deployment](manifests/README.md) (basic)
+* [Manifest based deployment](manifests) (basic)
 * [Deploy using Terraform](terraform) (advanced)
