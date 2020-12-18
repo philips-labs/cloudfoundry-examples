@@ -1,5 +1,5 @@
 # Terraform
-Terraform is an Open Source software that is developed by HashiCorp that enables predictable and consistent provisioning of resources. This includes many resources used inside HSDP through a number of providers such as the the [cloudfoundry](https://registry.terraform.io/providers/philips-labs/cloudfoundry/latest) and [hsdp](https://registry.terraform.io/providers/philips-software/hsdp/latest). The advantage over `manifests` based deploys is that you can also provision other types of resources which are offered through service brokers and even `IAM` and `Container Host` 
+Terraform is an Open Source software that is developed by HashiCorp that enables predictable and consistent provisioning of resources. This includes many resources used inside HSDP through a number of providers such as the the [Cloudfoundry](https://registry.terraform.io/providers/philips-labs/cloudfoundry/latest) and [HSDP](https://registry.terraform.io/providers/philips-software/hsdp/latest) ones. The advantage over `manifests` based deploys is that you can also provision other types of resources which are offered through marketplace service brokers. 
 
 # Prerequisites
 * [Install Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
