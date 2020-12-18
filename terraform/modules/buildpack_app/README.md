@@ -1,4 +1,4 @@
-# Modules
+# about modules
 Modules are a key concept of Terraform. [Modules](https://www.terraform.io/docs/configuration/blocks/modules/index.html) are containers for multiple resources that are used together. 
 A module consists of a collection of  `.tf` and/or `.tf.json` files kept together in a directory.
 
