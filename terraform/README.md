@@ -3,6 +3,7 @@ Terraform is an Open Source software that is developed by HashiCorp that enables
 
 # Prerequisites
 * [Install Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
+* Make sure you have the `SpaceDeveloper` role in the Cloud foundry space your are about to specify. Contact your `OrgManager` for help otherwise.
 * Configure Cloud foundry variables. Create a `terraform.tfvars` file with the following
 
 ```hcl
