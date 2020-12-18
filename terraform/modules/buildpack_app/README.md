@@ -23,4 +23,4 @@ We can reuse this module to deploy different apps all using the same formula des
 
 | Name | Description |
 |------|-------------|
-| endpoint | The endpoint (hot) of the application |
+| endpoint | The endpoint (hots) of the application |
