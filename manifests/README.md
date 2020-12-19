@@ -1,6 +1,7 @@
 # Deploy with a manifest.yml
+Manifests provide consistency and reproducibility, and can help you automate deploying apps. Both manifests and command line options allow you to override the default attribute values of cf push. These attributes include things like number of instances, disk space limit, and memory limit.
 
-# Prerequisite
+# Prerequisites
 You'll need to have access to the Cloud foundry Command Line Interface (CLI):
 
 * [Install the Cloud Foundry CLI](https://www.hsdp.io/develop/get-started-healthsuite/install-cloud-foundry-cli)
