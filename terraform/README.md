@@ -33,7 +33,7 @@ cf_domain       = "eu-west.philips-healthsuite.com"
 # Deploying
 
 ## Init
-Start by intializing Terraform. This will download the necessary providers:
+Start by intializing Terraform. This will download the required providers:
 
 ```shell
 $ terraform init
