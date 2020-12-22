@@ -20,7 +20,7 @@ $ cd manifests
 ```
 
 # Deploy command
-You are now ready to deploy the example apps to Cloud foundry. The `cf` command will use the [manifest.yml](manifest.yml) to which apps to deploy:
+You are now ready to deploy the example apps to Cloud foundry. The `cf` command will use the [manifest.yml](manifest.yml) to determine which apps to deploy:
 
 ```shell
 $ cf push
