@@ -1,5 +1,5 @@
 # Terraform
-Terraform is an Open Source software that is developed by HashiCorp that enables predictable and consistent provisioning of resources. This includes many resources used inside HSDP through a number of providers such as the [Cloudfoundry](https://registry.terraform.io/providers/philips-labs/cloudfoundry/latest) provider which we will use for this excercise. An added advantage over `manifest` based orchestration is that Terraform has a [vast amount of providers](https://registry.terraform.io/browse/providers) which allow you manage a plethora of resources. There's even a [HSDP](https://registry.terraform.io/providers/philips-software/hsdp/latest) specific provider supporting `IAM`, `Container Host` and many other HSDP specific resources.
+Terraform is an Open Source software that is developed by HashiCorp that enables predictable and consistent provisioning of resources. This includes many resources used inside HSDP through a number of providers such as the [Cloudfoundry](https://registry.terraform.io/providers/philips-labs/cloudfoundry/latest) one which we will use for this excercise. 
 
 # Prerequisites
 * [Install Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
@@ -62,3 +62,6 @@ Finally, when you are done testing you can remove the apps and routes you create
 ```shell
 $ terraform destroy
 ```
+
+## Next steps
+Have a look at the [HSDP](https://registry.terraform.io/providers/philips-software/hsdp/latest) specific provider supporting `IAM`, `Container Host` other HSDP specific resources. Also check out the [Terraform modules](https://www.terraform.io/docs/modules/index.html) concept which explains how to define your  infrastructure / applications in reusable building blocks.
