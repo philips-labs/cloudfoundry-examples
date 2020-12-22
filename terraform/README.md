@@ -64,4 +64,4 @@ $ terraform destroy
 ```
 
 # Next steps
-Have a look at the [HSDP](https://registry.terraform.io/providers/philips-software/hsdp/latest) provider supporting `IAM`, `Container Host` other HSDP specific resources. Also check out the [Terraform modules](https://www.terraform.io/docs/modules/index.html) concept which explains how to define your  infrastructure / applications in reusable building blocks.
+Have a look at the [HSDP](https://registry.terraform.io/providers/philips-software/hsdp/latest) provider supporting `IAM`, `Container Host` other HSDP specific resources. Also check out the [Terraform modules](https://www.terraform.io/docs/modules/index.html) concept which illustrates how to define your infrastructure / applications in reusable building blocks.
