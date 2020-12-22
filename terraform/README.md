@@ -63,5 +63,5 @@ Finally, when you are done testing you can remove the apps and routes you create
 $ terraform destroy
 ```
 
-## Next steps
+# Next steps
 Have a look at the [HSDP](https://registry.terraform.io/providers/philips-software/hsdp/latest) specific provider supporting `IAM`, `Container Host` other HSDP specific resources. Also check out the [Terraform modules](https://www.terraform.io/docs/modules/index.html) concept which explains how to define your  infrastructure / applications in reusable building blocks.
