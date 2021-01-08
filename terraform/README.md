@@ -4,10 +4,16 @@ Terraform is an Open Source software that is developed by HashiCorp that enables
 # Prerequisites
 * [Install Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 * Make sure you have the `SpaceDeveloper` role in the Cloud foundry space your are about to specify. Contact your `OrgManager` for help otherwise.
+* Clone this repository somewhere:
+
+```shell
+> git clone https://github.com/philips-labs/cloudfoundry-examples.git
+```
+
 * Change to the `terraform` folder of your copy of the repository:
 
 ```shell
-> cd terraform
+> cd cloudfoundry-examples/terraform
 ```
 
 * Configure Cloud foundry variables. Create a `terraform.tfvars` file using your favorite text editor with the following lines:
