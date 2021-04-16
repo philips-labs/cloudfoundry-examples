@@ -42,21 +42,21 @@ cf_domain       = "eu-west.philips-healthsuite.com"
 Start by intializing Terraform. This will download the required providers:
 
 ```shell
-> terraform init
+terraform init
 ```
 
 ## Plan
 Next up is to generate a plan. This will tell you exactly what Terraform plans to do:
 
 ```shell
-> terraform plan
+terraform plan
 ```
 
 ## Apply
 If the plan looks good, you can now apply it. This will deploy your apps to the cloud:
 
 ```shell
-> terraform apply
+terraform apply
 ```
 
 After a minute or so you should see the URLs on which the example apps are listening on
@@ -66,7 +66,7 @@ After a minute or so you should see the URLs on which the example apps are liste
 Finally, when you are done testing you can remove the apps and routes you created in the `apply` step:
 
 ```shell
-> terraform destroy
+terraform destroy
 ```
 
 # Next steps
