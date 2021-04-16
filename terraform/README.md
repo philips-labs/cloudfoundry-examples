@@ -7,13 +7,13 @@ Terraform is an Open Source software that is developed by HashiCorp that enables
 * Clone this repository somewhere:
 
 ```shell
-> git clone https://github.com/philips-labs/cloudfoundry-examples.git
+git clone https://github.com/philips-labs/cloudfoundry-examples.git
 ```
 
 * Change to the `terraform` folder of your copy of the repository:
 
 ```shell
-> cd cloudfoundry-examples/terraform
+cd cloudfoundry-examples/terraform
 ```
 
 * Configure Cloud foundry variables. Create a `terraform.tfvars` file using your favorite text editor with the following lines:
