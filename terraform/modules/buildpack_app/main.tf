@@ -3,6 +3,8 @@ resource "cloudfoundry_app" "app" {
   path   = data.archive_file.archive.output_path
   space  = var.space_id
   memory = var.memory
+  strategy = "blue-green"
+  source_code_hash = base64sha256(filebase64(data.archive_file.archive.output_path))
 
   routes {
     route = cloudfoundry_route.route.id
