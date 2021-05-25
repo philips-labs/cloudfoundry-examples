@@ -19,16 +19,9 @@ variable "cf_password" {
   sensitive   = true
 }
 
-variable "cf_api_endpoint" {
+variable "cf_region" {
   type        = string
-  description = "The CF API endpoint to use"
-  default     = "https://api.cloud.pcftest.com"
+  description = "The CF region to deploy to"
+  default     = "eu-west"
 }
-
-variable "cf_domain" {
-  type        = string
-  description = "The CF domain to use"
-  default     = "cloud.pcftest.com"
-}
-
 
