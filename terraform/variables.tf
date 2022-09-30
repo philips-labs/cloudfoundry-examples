@@ -13,12 +13,6 @@ variable "cf_username" {
   description = "The CF username"
 }
 
-variable "cf_password" {
-  type        = string
-  description = "The CF password"
-  sensitive   = true
-}
-
 variable "cf_region" {
   type        = string
   description = "The CF region to deploy to"

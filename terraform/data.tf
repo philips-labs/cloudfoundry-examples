@@ -6,19 +6,19 @@ data "hsdp_config" "cf" {
 data "archive_file" "golang" {
   type        = "zip"
   source_dir  = "../apps/golang"
-  output_path = "golang.zip"
+  output_path = "../apps/golang.zip"
 }
 
 data "archive_file" "nodejs" {
   type        = "zip"
   source_dir  = "../apps/nodejs"
-  output_path = "nodejs.zip"
+  output_path = "../apps/nodejs.zip"
 }
 
 data "archive_file" "aspnetcore" {
   type        = "zip"
   source_dir  = "../apps/aspnetcore"
-  output_path = "aspnetcore.zip"
+  output_path = "../apps/aspnetcore.zip"
 }
 
 data "cloudfoundry_org" "org" {

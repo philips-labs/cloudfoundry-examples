@@ -20,5 +20,5 @@ resource "cloudfoundry_route" "route" {
 data "archive_file" "archive" {
   type        = "zip"
   source_dir  = "${path.root}/${var.path}"
-  output_path = "${var.name}_archive.zip"
+  output_path = "${path.root}/${var.path}/${var.name}_archive.zip"
 }

@@ -21,12 +21,3 @@ module "nodejs" {
   host_postfix = random_id.host.hex
   memory       = 128
 }
-
-module "aspnetcore" {
-  source       = "./modules/buildpack_app"
-  name         = "aspnetcore"
-  path         = "../apps/aspnetcore"
-  space_id     = data.cloudfoundry_space.space.id
-  domain_id    = data.cloudfoundry_domain.domain.id
-  host_postfix = random_id.host.hex
-}
